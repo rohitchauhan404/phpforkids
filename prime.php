@@ -2,7 +2,7 @@
 
 <?php
 
-$num = readline('Enter number: ' . PHP_EOL);
+$num = (int)readline('Enter number: ' . PHP_EOL);
 $status = ' is prime';
 
 if ($num == 1) {

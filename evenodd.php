@@ -2,13 +2,13 @@
 
 <?php
 
-$num = readline('Enter number: ' . PHP_EOL);
+$num = (int)readline('Enter number: ' . PHP_EOL);
 $status = null;
 
 if($num % 2 == 0) {
-    $status = 'even';
+    $status = 'even.';
     } else {
-    $status = 'odd';
+    $status = 'odd.';
     }
 
 echo 'The number ' . $num . ' is ' . $status . PHP_EOL;

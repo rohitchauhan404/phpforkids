@@ -2,7 +2,7 @@
 
 <?php
 
-$num = readline('Enter factorial number: ' . PHP_EOL);
+$num = (int)readline('Enter factorial number: ' . PHP_EOL);
 
 function factorial($num) {
     if($num <= 1) {
@@ -12,6 +12,6 @@ function factorial($num) {
     }
 }
 
-echo 'Factorial of ' . $num . ' is ' . factorial($num) . PHP_EOL;
+echo 'Factorial of ' . $num . ' is ' . factorial($num) . '.' . PHP_EOL;
 
 ?>

@@ -2,7 +2,7 @@
 
 <?php
 
-$num = readline('Enter number: ' . PHP_EOL);
+$num = (int)readline('Enter number: ' . PHP_EOL);
 
 $sum = array_sum(str_split($num));
 
