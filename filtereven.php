@@ -8,6 +8,7 @@ $numbers = explode(',', $numbers);
 $filteredeven = array_filter($numbers, function($item) {
     return $item % 2 == 0;
 });
+
 echo 'These are the even numbers: ' . implode(',', $filteredeven) . PHP_EOL;
 
 ?>
